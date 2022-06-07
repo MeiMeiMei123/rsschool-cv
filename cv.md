@@ -1,2 +1,2 @@
 Kristina
-trying to understand
+trying to figure it all out
