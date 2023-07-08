@@ -1,6 +1,7 @@
 .body {
   font-family: 'Charis SIL', serif;
   display: flex;
+  margin: 0;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -25,11 +26,25 @@
     padding: 0 20px;
     line-height: 50px;
     color:antiquewhite;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.background {
+    background-image: url(/assets/img/1680071859_phonoteka-org-p-prapor-pingvin-oboi-pinterest-6.jpg);
+    background-size: 100%;
 }
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    height: 1000px;
+    padding: 0 30px;
+    background-color: white;
 }
   
 .section {
@@ -54,6 +69,10 @@
 .link {
     color:antiquewhite;
     text-decoration:none;
+}
+
+.link:hover {
+    color: black;
 }
 
 .location {
